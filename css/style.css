@@ -1,0 +1,95 @@
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color:beige;
+    margin: 0;
+  }
+  
+
+  .conatiner{
+    width:80%;
+    margin:50px auto;
+   
+  }
+  h1, h2 {
+    text-align: center;
+    color:green;
+    shape-outside: margin-box;
+    margin:50px;
+  }
+
+  h2{
+    font-size: 25px;
+    color:rgb(35, 33, 33);
+  }
+  
+  .input-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .input-section label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  .input-section select{
+    width:300px;
+    height:30px;
+  }
+  
+  .input-section input[type="number"], .input-section input[type="date"] {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .input-section button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .input-section button:hover{
+    background-color:white;
+    color:green;
+    border:1px solid green;
+  }
+  
+  .expenses-list {
+    margin: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  tfoot td {
+    font-weight: bold;
+  }
+  
+  .delete-btn {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  } 
+  
+
